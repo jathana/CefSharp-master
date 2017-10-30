@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -86,10 +87,27 @@ namespace AgilityPack
                row.Over45FT = Convert.ToDecimal(item.Over45FT);
                row.Under45FT = Convert.ToDecimal(item.Under45FT);
 
+               row.Over55FT = Convert.ToDecimal(item.Over55FT);
+               row.Under55FT = Convert.ToDecimal(item.Under55FT);
+
+               row.Over65FT = Convert.ToDecimal(item.Over65FT);
+               row.Under65FT = Convert.ToDecimal(item.Under65FT);
+
+               row.Over75FT = Convert.ToDecimal(item.Over75FT);
+               row.Under75FT = Convert.ToDecimal(item.Under75FT);
+
+               row.Over85FT = Convert.ToDecimal(item.Over85FT);
+               row.Under85FT = Convert.ToDecimal(item.Under85FT);
+
+               row.Over95FT = Convert.ToDecimal(item.Over95FT);
+               row.Under95FT = Convert.ToDecimal(item.Under95FT);
+
+
                table.Rows.Add(row);
             }
             catch (Exception ex)
             {
+               Debug.WriteLine($"error adding row:{ex.Message}");
             }
 
          }

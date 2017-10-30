@@ -96,6 +96,21 @@ namespace AgilityPack
             ParseOverUnder(ev, rec, "Over", "4.5", "FT");
             ParseOverUnder(ev, rec, "Under", "4.5", "FT");
 
+            ParseOverUnder(ev, rec, "Over", "5.5", "FT");
+            ParseOverUnder(ev, rec, "Under", "5.5", "FT");
+
+            ParseOverUnder(ev, rec, "Over", "6.5", "FT");
+            ParseOverUnder(ev, rec, "Under", "6.5", "FT");
+
+            ParseOverUnder(ev, rec, "Over", "7.5", "FT");
+            ParseOverUnder(ev, rec, "Under", "7.5", "FT");
+
+            ParseOverUnder(ev, rec, "Over", "8.5", "FT");
+            ParseOverUnder(ev, rec, "Under", "8.5", "FT");
+
+            ParseOverUnder(ev, rec, "Over", "9.5", "FT");
+            ParseOverUnder(ev, rec, "Under", "9.5", "FT");
+
             retval.Add(rec);
          }
          return retval;
@@ -468,6 +483,21 @@ namespace AgilityPack
 
          if (betType.Equals("Over") && overUnderValue.Equals("4.5") && period.Equals("FT")) rec.Over45FT = odd;
          if (betType.Equals("Under") && overUnderValue.Equals("4.5") && period.Equals("FT")) rec.Under45FT = odd;
+
+         if (betType.Equals("Over") && overUnderValue.Equals("5.5") && period.Equals("FT")) rec.Over55FT = odd;
+         if (betType.Equals("Under") && overUnderValue.Equals("5.5") && period.Equals("FT")) rec.Under55FT = odd;
+
+         if (betType.Equals("Over") && overUnderValue.Equals("6.5") && period.Equals("FT")) rec.Over65FT = odd;
+         if (betType.Equals("Under") && overUnderValue.Equals("6.5") && period.Equals("FT")) rec.Under65FT = odd;
+
+         if (betType.Equals("Over") && overUnderValue.Equals("7.5") && period.Equals("FT")) rec.Over75FT = odd;
+         if (betType.Equals("Under") && overUnderValue.Equals("7.5") && period.Equals("FT")) rec.Under75FT = odd;
+
+         if (betType.Equals("Over") && overUnderValue.Equals("8.5") && period.Equals("FT")) rec.Over85FT = odd;
+         if (betType.Equals("Under") && overUnderValue.Equals("8.5") && period.Equals("FT")) rec.Under85FT = odd;
+
+         if (betType.Equals("Over") && overUnderValue.Equals("9.5") && period.Equals("FT")) rec.Over95FT = odd;
+         if (betType.Equals("Under") && overUnderValue.Equals("9.5") && period.Equals("FT")) rec.Under95FT = odd;
 
          return parsed;
       }

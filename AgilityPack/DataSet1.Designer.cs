@@ -281,11 +281,17 @@ namespace AgilityPack {
             
             private global::System.Data.DataColumn columnCreationDate;
             
-            private global::System.Data.DataColumn columnTime;
+            private global::System.Data.DataColumn columnSport;
+            
+            private global::System.Data.DataColumn columnEventId;
+            
+            private global::System.Data.DataColumn columnCompetition;
             
             private global::System.Data.DataColumn columnHomeTeam;
             
             private global::System.Data.DataColumn columnAwayTeam;
+            
+            private global::System.Data.DataColumn columnTime;
             
             private global::System.Data.DataColumn columnHomeGoalsFT;
             
@@ -317,21 +323,35 @@ namespace AgilityPack {
             
             private global::System.Data.DataColumn columnUnder45FT;
             
-            private global::System.Data.DataColumn columnCode;
+            private global::System.Data.DataColumn columnOver55FT;
             
-            private global::System.Data.DataColumn columnEventId;
+            private global::System.Data.DataColumn columnUnder55FT;
+            
+            private global::System.Data.DataColumn columnOver65FT;
+            
+            private global::System.Data.DataColumn columnUnder65FT;
+            
+            private global::System.Data.DataColumn columnOver75FT;
+            
+            private global::System.Data.DataColumn columnUnder75FT;
+            
+            private global::System.Data.DataColumn columnOver85FT;
+            
+            private global::System.Data.DataColumn columnUnder85FT;
+            
+            private global::System.Data.DataColumn columnOver95FT;
+            
+            private global::System.Data.DataColumn columnUnder95FT;
+            
+            private global::System.Data.DataColumn columnCode;
             
             private global::System.Data.DataColumn columnBetRadarId;
             
             private global::System.Data.DataColumn columnIsAwaitingStart;
             
-            private global::System.Data.DataColumn columnSport;
-            
             private global::System.Data.DataColumn columnGameStart;
             
             private global::System.Data.DataColumn columnBetStart;
-            
-            private global::System.Data.DataColumn columnCompetition;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
@@ -376,9 +396,25 @@ namespace AgilityPack {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn TimeColumn {
+            public global::System.Data.DataColumn SportColumn {
                 get {
-                    return this.columnTime;
+                    return this.columnSport;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn EventIdColumn {
+                get {
+                    return this.columnEventId;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn CompetitionColumn {
+                get {
+                    return this.columnCompetition;
                 }
             }
             
@@ -395,6 +431,14 @@ namespace AgilityPack {
             public global::System.Data.DataColumn AwayTeamColumn {
                 get {
                     return this.columnAwayTeam;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn TimeColumn {
+                get {
+                    return this.columnTime;
                 }
             }
             
@@ -520,17 +564,89 @@ namespace AgilityPack {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn CodeColumn {
+            public global::System.Data.DataColumn Over55FTColumn {
                 get {
-                    return this.columnCode;
+                    return this.columnOver55FT;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn EventIdColumn {
+            public global::System.Data.DataColumn Under55FTColumn {
                 get {
-                    return this.columnEventId;
+                    return this.columnUnder55FT;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn Over65FTColumn {
+                get {
+                    return this.columnOver65FT;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn Under65FTColumn {
+                get {
+                    return this.columnUnder65FT;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn Over75FTColumn {
+                get {
+                    return this.columnOver75FT;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn Under75FTColumn {
+                get {
+                    return this.columnUnder75FT;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn Over85FTColumn {
+                get {
+                    return this.columnOver85FT;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn Under85FTColumn {
+                get {
+                    return this.columnUnder85FT;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn Over95FTColumn {
+                get {
+                    return this.columnOver95FT;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn Under95FTColumn {
+                get {
+                    return this.columnUnder95FT;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn CodeColumn {
+                get {
+                    return this.columnCode;
                 }
             }
             
@@ -552,14 +668,6 @@ namespace AgilityPack {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn SportColumn {
-                get {
-                    return this.columnSport;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public global::System.Data.DataColumn GameStartColumn {
                 get {
                     return this.columnGameStart;
@@ -571,14 +679,6 @@ namespace AgilityPack {
             public global::System.Data.DataColumn BetStartColumn {
                 get {
                     return this.columnBetStart;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn CompetitionColumn {
-                get {
-                    return this.columnCompetition;
                 }
             }
             
@@ -621,9 +721,12 @@ namespace AgilityPack {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public OddsTableRow AddOddsTableRow(
                         System.DateTime CreationDate, 
-                        string Time, 
+                        string Sport, 
+                        string EventId, 
+                        string Competition, 
                         string HomeTeam, 
                         string AwayTeam, 
+                        string Time, 
                         int HomeGoalsFT, 
                         int AwayGoalsFT, 
                         decimal HomeOddFT, 
@@ -639,19 +742,29 @@ namespace AgilityPack {
                         decimal Under35FT, 
                         decimal Over45FT, 
                         decimal Under45FT, 
-                        string EventId, 
+                        decimal Over55FT, 
+                        decimal Under55FT, 
+                        decimal Over65FT, 
+                        decimal Under65FT, 
+                        decimal Over75FT, 
+                        decimal Under75FT, 
+                        decimal Over85FT, 
+                        decimal Under85FT, 
+                        decimal Over95FT, 
+                        decimal Under95FT, 
                         string BetRadarId, 
                         bool IsAwaitingStart, 
-                        string Sport, 
                         System.DateTime GameStart, 
-                        System.DateTime BetStart, 
-                        string Competition) {
+                        System.DateTime BetStart) {
                 OddsTableRow rowOddsTableRow = ((OddsTableRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         CreationDate,
-                        Time,
+                        Sport,
+                        EventId,
+                        Competition,
                         HomeTeam,
                         AwayTeam,
+                        Time,
                         HomeGoalsFT,
                         AwayGoalsFT,
                         HomeOddFT,
@@ -667,14 +780,21 @@ namespace AgilityPack {
                         Under35FT,
                         Over45FT,
                         Under45FT,
+                        Over55FT,
+                        Under55FT,
+                        Over65FT,
+                        Under65FT,
+                        Over75FT,
+                        Under75FT,
+                        Over85FT,
+                        Under85FT,
+                        Over95FT,
+                        Under95FT,
                         null,
-                        EventId,
                         BetRadarId,
                         IsAwaitingStart,
-                        Sport,
                         GameStart,
-                        BetStart,
-                        Competition};
+                        BetStart};
                 rowOddsTableRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowOddsTableRow);
                 return rowOddsTableRow;
@@ -698,9 +818,12 @@ namespace AgilityPack {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             internal void InitVars() {
                 this.columnCreationDate = base.Columns["CreationDate"];
-                this.columnTime = base.Columns["Time"];
+                this.columnSport = base.Columns["Sport"];
+                this.columnEventId = base.Columns["EventId"];
+                this.columnCompetition = base.Columns["Competition"];
                 this.columnHomeTeam = base.Columns["HomeTeam"];
                 this.columnAwayTeam = base.Columns["AwayTeam"];
+                this.columnTime = base.Columns["Time"];
                 this.columnHomeGoalsFT = base.Columns["HomeGoalsFT"];
                 this.columnAwayGoalsFT = base.Columns["AwayGoalsFT"];
                 this.columnHomeOddFT = base.Columns["HomeOddFT"];
@@ -716,14 +839,21 @@ namespace AgilityPack {
                 this.columnUnder35FT = base.Columns["Under35FT"];
                 this.columnOver45FT = base.Columns["Over45FT"];
                 this.columnUnder45FT = base.Columns["Under45FT"];
+                this.columnOver55FT = base.Columns["Over55FT"];
+                this.columnUnder55FT = base.Columns["Under55FT"];
+                this.columnOver65FT = base.Columns["Over65FT"];
+                this.columnUnder65FT = base.Columns["Under65FT"];
+                this.columnOver75FT = base.Columns["Over75FT"];
+                this.columnUnder75FT = base.Columns["Under75FT"];
+                this.columnOver85FT = base.Columns["Over85FT"];
+                this.columnUnder85FT = base.Columns["Under85FT"];
+                this.columnOver95FT = base.Columns["Over95FT"];
+                this.columnUnder95FT = base.Columns["Under95FT"];
                 this.columnCode = base.Columns["Code"];
-                this.columnEventId = base.Columns["EventId"];
                 this.columnBetRadarId = base.Columns["BetRadarId"];
                 this.columnIsAwaitingStart = base.Columns["IsAwaitingStart"];
-                this.columnSport = base.Columns["Sport"];
                 this.columnGameStart = base.Columns["GameStart"];
                 this.columnBetStart = base.Columns["BetStart"];
-                this.columnCompetition = base.Columns["Competition"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -731,12 +861,18 @@ namespace AgilityPack {
             private void InitClass() {
                 this.columnCreationDate = new global::System.Data.DataColumn("CreationDate", typeof(global::System.DateTime), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnCreationDate);
-                this.columnTime = new global::System.Data.DataColumn("Time", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnTime);
+                this.columnSport = new global::System.Data.DataColumn("Sport", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnSport);
+                this.columnEventId = new global::System.Data.DataColumn("EventId", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnEventId);
+                this.columnCompetition = new global::System.Data.DataColumn("Competition", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnCompetition);
                 this.columnHomeTeam = new global::System.Data.DataColumn("HomeTeam", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnHomeTeam);
                 this.columnAwayTeam = new global::System.Data.DataColumn("AwayTeam", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnAwayTeam);
+                this.columnTime = new global::System.Data.DataColumn("Time", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnTime);
                 this.columnHomeGoalsFT = new global::System.Data.DataColumn("HomeGoalsFT", typeof(int), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnHomeGoalsFT);
                 this.columnAwayGoalsFT = new global::System.Data.DataColumn("AwayGoalsFT", typeof(int), null, global::System.Data.MappingType.Element);
@@ -767,34 +903,48 @@ namespace AgilityPack {
                 base.Columns.Add(this.columnOver45FT);
                 this.columnUnder45FT = new global::System.Data.DataColumn("Under45FT", typeof(decimal), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnUnder45FT);
+                this.columnOver55FT = new global::System.Data.DataColumn("Over55FT", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnOver55FT);
+                this.columnUnder55FT = new global::System.Data.DataColumn("Under55FT", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnUnder55FT);
+                this.columnOver65FT = new global::System.Data.DataColumn("Over65FT", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnOver65FT);
+                this.columnUnder65FT = new global::System.Data.DataColumn("Under65FT", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnUnder65FT);
+                this.columnOver75FT = new global::System.Data.DataColumn("Over75FT", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnOver75FT);
+                this.columnUnder75FT = new global::System.Data.DataColumn("Under75FT", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnUnder75FT);
+                this.columnOver85FT = new global::System.Data.DataColumn("Over85FT", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnOver85FT);
+                this.columnUnder85FT = new global::System.Data.DataColumn("Under85FT", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnUnder85FT);
+                this.columnOver95FT = new global::System.Data.DataColumn("Over95FT", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnOver95FT);
+                this.columnUnder95FT = new global::System.Data.DataColumn("Under95FT", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnUnder95FT);
                 this.columnCode = new global::System.Data.DataColumn("Code", typeof(int), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnCode);
-                this.columnEventId = new global::System.Data.DataColumn("EventId", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnEventId);
                 this.columnBetRadarId = new global::System.Data.DataColumn("BetRadarId", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnBetRadarId);
                 this.columnIsAwaitingStart = new global::System.Data.DataColumn("IsAwaitingStart", typeof(bool), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnIsAwaitingStart);
-                this.columnSport = new global::System.Data.DataColumn("Sport", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnSport);
                 this.columnGameStart = new global::System.Data.DataColumn("GameStart", typeof(global::System.DateTime), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnGameStart);
                 this.columnBetStart = new global::System.Data.DataColumn("BetStart", typeof(global::System.DateTime), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnBetStart);
-                this.columnCompetition = new global::System.Data.DataColumn("Competition", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnCompetition);
-                this.columnTime.MaxLength = 10;
+                this.columnSport.MaxLength = 50;
+                this.columnEventId.MaxLength = 50;
+                this.columnCompetition.MaxLength = 200;
                 this.columnHomeTeam.MaxLength = 150;
                 this.columnAwayTeam.MaxLength = 150;
+                this.columnTime.MaxLength = 40;
                 this.columnCode.AutoIncrement = true;
                 this.columnCode.AutoIncrementSeed = -1;
                 this.columnCode.AutoIncrementStep = -1;
                 this.columnCode.AllowDBNull = false;
                 this.columnCode.ReadOnly = true;
-                this.columnEventId.MaxLength = 50;
                 this.columnBetRadarId.MaxLength = 50;
-                this.columnSport.MaxLength = 50;
-                this.columnCompetition.MaxLength = 200;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -953,17 +1103,49 @@ namespace AgilityPack {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public string Time {
+            public string Sport {
                 get {
                     try {
-                        return ((string)(this[this.tableOddsTable.TimeColumn]));
+                        return ((string)(this[this.tableOddsTable.SportColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'Time\' in table \'OddsTable\' is DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'Sport\' in table \'OddsTable\' is DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tableOddsTable.TimeColumn] = value;
+                    this[this.tableOddsTable.SportColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string EventId {
+                get {
+                    try {
+                        return ((string)(this[this.tableOddsTable.EventIdColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'EventId\' in table \'OddsTable\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableOddsTable.EventIdColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string Competition {
+                get {
+                    try {
+                        return ((string)(this[this.tableOddsTable.CompetitionColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'Competition\' in table \'OddsTable\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableOddsTable.CompetitionColumn] = value;
                 }
             }
             
@@ -996,6 +1178,22 @@ namespace AgilityPack {
                 }
                 set {
                     this[this.tableOddsTable.AwayTeamColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string Time {
+                get {
+                    try {
+                        return ((string)(this[this.tableOddsTable.TimeColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'Time\' in table \'OddsTable\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableOddsTable.TimeColumn] = value;
                 }
             }
             
@@ -1241,28 +1439,172 @@ namespace AgilityPack {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public decimal Over55FT {
+                get {
+                    try {
+                        return ((decimal)(this[this.tableOddsTable.Over55FTColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'Over55FT\' in table \'OddsTable\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableOddsTable.Over55FTColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public decimal Under55FT {
+                get {
+                    try {
+                        return ((decimal)(this[this.tableOddsTable.Under55FTColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'Under55FT\' in table \'OddsTable\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableOddsTable.Under55FTColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public decimal Over65FT {
+                get {
+                    try {
+                        return ((decimal)(this[this.tableOddsTable.Over65FTColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'Over65FT\' in table \'OddsTable\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableOddsTable.Over65FTColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public decimal Under65FT {
+                get {
+                    try {
+                        return ((decimal)(this[this.tableOddsTable.Under65FTColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'Under65FT\' in table \'OddsTable\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableOddsTable.Under65FTColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public decimal Over75FT {
+                get {
+                    try {
+                        return ((decimal)(this[this.tableOddsTable.Over75FTColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'Over75FT\' in table \'OddsTable\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableOddsTable.Over75FTColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public decimal Under75FT {
+                get {
+                    try {
+                        return ((decimal)(this[this.tableOddsTable.Under75FTColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'Under75FT\' in table \'OddsTable\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableOddsTable.Under75FTColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public decimal Over85FT {
+                get {
+                    try {
+                        return ((decimal)(this[this.tableOddsTable.Over85FTColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'Over85FT\' in table \'OddsTable\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableOddsTable.Over85FTColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public decimal Under85FT {
+                get {
+                    try {
+                        return ((decimal)(this[this.tableOddsTable.Under85FTColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'Under85FT\' in table \'OddsTable\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableOddsTable.Under85FTColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public decimal Over95FT {
+                get {
+                    try {
+                        return ((decimal)(this[this.tableOddsTable.Over95FTColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'Over95FT\' in table \'OddsTable\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableOddsTable.Over95FTColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public decimal Under95FT {
+                get {
+                    try {
+                        return ((decimal)(this[this.tableOddsTable.Under95FTColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'Under95FT\' in table \'OddsTable\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableOddsTable.Under95FTColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public int Code {
                 get {
                     return ((int)(this[this.tableOddsTable.CodeColumn]));
                 }
                 set {
                     this[this.tableOddsTable.CodeColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public string EventId {
-                get {
-                    try {
-                        return ((string)(this[this.tableOddsTable.EventIdColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'EventId\' in table \'OddsTable\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableOddsTable.EventIdColumn] = value;
                 }
             }
             
@@ -1300,22 +1642,6 @@ namespace AgilityPack {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public string Sport {
-                get {
-                    try {
-                        return ((string)(this[this.tableOddsTable.SportColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'Sport\' in table \'OddsTable\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableOddsTable.SportColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public System.DateTime GameStart {
                 get {
                     try {
@@ -1348,22 +1674,6 @@ namespace AgilityPack {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public string Competition {
-                get {
-                    try {
-                        return ((string)(this[this.tableOddsTable.CompetitionColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'Competition\' in table \'OddsTable\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableOddsTable.CompetitionColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public bool IsCreationDateNull() {
                 return this.IsNull(this.tableOddsTable.CreationDateColumn);
             }
@@ -1376,14 +1686,38 @@ namespace AgilityPack {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool IsTimeNull() {
-                return this.IsNull(this.tableOddsTable.TimeColumn);
+            public bool IsSportNull() {
+                return this.IsNull(this.tableOddsTable.SportColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void SetTimeNull() {
-                this[this.tableOddsTable.TimeColumn] = global::System.Convert.DBNull;
+            public void SetSportNull() {
+                this[this.tableOddsTable.SportColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsEventIdNull() {
+                return this.IsNull(this.tableOddsTable.EventIdColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetEventIdNull() {
+                this[this.tableOddsTable.EventIdColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsCompetitionNull() {
+                return this.IsNull(this.tableOddsTable.CompetitionColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetCompetitionNull() {
+                this[this.tableOddsTable.CompetitionColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1408,6 +1742,18 @@ namespace AgilityPack {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public void SetAwayTeamNull() {
                 this[this.tableOddsTable.AwayTeamColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsTimeNull() {
+                return this.IsNull(this.tableOddsTable.TimeColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetTimeNull() {
+                this[this.tableOddsTable.TimeColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1592,14 +1938,122 @@ namespace AgilityPack {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool IsEventIdNull() {
-                return this.IsNull(this.tableOddsTable.EventIdColumn);
+            public bool IsOver55FTNull() {
+                return this.IsNull(this.tableOddsTable.Over55FTColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void SetEventIdNull() {
-                this[this.tableOddsTable.EventIdColumn] = global::System.Convert.DBNull;
+            public void SetOver55FTNull() {
+                this[this.tableOddsTable.Over55FTColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsUnder55FTNull() {
+                return this.IsNull(this.tableOddsTable.Under55FTColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetUnder55FTNull() {
+                this[this.tableOddsTable.Under55FTColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsOver65FTNull() {
+                return this.IsNull(this.tableOddsTable.Over65FTColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetOver65FTNull() {
+                this[this.tableOddsTable.Over65FTColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsUnder65FTNull() {
+                return this.IsNull(this.tableOddsTable.Under65FTColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetUnder65FTNull() {
+                this[this.tableOddsTable.Under65FTColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsOver75FTNull() {
+                return this.IsNull(this.tableOddsTable.Over75FTColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetOver75FTNull() {
+                this[this.tableOddsTable.Over75FTColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsUnder75FTNull() {
+                return this.IsNull(this.tableOddsTable.Under75FTColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetUnder75FTNull() {
+                this[this.tableOddsTable.Under75FTColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsOver85FTNull() {
+                return this.IsNull(this.tableOddsTable.Over85FTColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetOver85FTNull() {
+                this[this.tableOddsTable.Over85FTColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsUnder85FTNull() {
+                return this.IsNull(this.tableOddsTable.Under85FTColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetUnder85FTNull() {
+                this[this.tableOddsTable.Under85FTColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsOver95FTNull() {
+                return this.IsNull(this.tableOddsTable.Over95FTColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetOver95FTNull() {
+                this[this.tableOddsTable.Over95FTColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsUnder95FTNull() {
+                return this.IsNull(this.tableOddsTable.Under95FTColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetUnder95FTNull() {
+                this[this.tableOddsTable.Under95FTColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1628,18 +2082,6 @@ namespace AgilityPack {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool IsSportNull() {
-                return this.IsNull(this.tableOddsTable.SportColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void SetSportNull() {
-                this[this.tableOddsTable.SportColumn] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public bool IsGameStartNull() {
                 return this.IsNull(this.tableOddsTable.GameStartColumn);
             }
@@ -1660,18 +2102,6 @@ namespace AgilityPack {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public void SetBetStartNull() {
                 this[this.tableOddsTable.BetStartColumn] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool IsCompetitionNull() {
-                return this.IsNull(this.tableOddsTable.CompetitionColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void SetCompetitionNull() {
-                this[this.tableOddsTable.CompetitionColumn] = global::System.Convert.DBNull;
             }
         }
         
@@ -1835,9 +2265,12 @@ namespace AgilityPack.DataSet1TableAdapters {
             tableMapping.SourceTable = "Table";
             tableMapping.DataSetTable = "OddsTable";
             tableMapping.ColumnMappings.Add("CreationDate", "CreationDate");
-            tableMapping.ColumnMappings.Add("Time", "Time");
+            tableMapping.ColumnMappings.Add("Sport", "Sport");
+            tableMapping.ColumnMappings.Add("EventId", "EventId");
+            tableMapping.ColumnMappings.Add("Competition", "Competition");
             tableMapping.ColumnMappings.Add("HomeTeam", "HomeTeam");
             tableMapping.ColumnMappings.Add("AwayTeam", "AwayTeam");
+            tableMapping.ColumnMappings.Add("Time", "Time");
             tableMapping.ColumnMappings.Add("HomeGoalsFT", "HomeGoalsFT");
             tableMapping.ColumnMappings.Add("AwayGoalsFT", "AwayGoalsFT");
             tableMapping.ColumnMappings.Add("HomeOddFT", "HomeOddFT");
@@ -1853,23 +2286,33 @@ namespace AgilityPack.DataSet1TableAdapters {
             tableMapping.ColumnMappings.Add("Under35FT", "Under35FT");
             tableMapping.ColumnMappings.Add("Over45FT", "Over45FT");
             tableMapping.ColumnMappings.Add("Under45FT", "Under45FT");
+            tableMapping.ColumnMappings.Add("Over55FT", "Over55FT");
+            tableMapping.ColumnMappings.Add("Under55FT", "Under55FT");
+            tableMapping.ColumnMappings.Add("Over65FT", "Over65FT");
+            tableMapping.ColumnMappings.Add("Under65FT", "Under65FT");
+            tableMapping.ColumnMappings.Add("Over75FT", "Over75FT");
+            tableMapping.ColumnMappings.Add("Under75FT", "Under75FT");
+            tableMapping.ColumnMappings.Add("Over85FT", "Over85FT");
+            tableMapping.ColumnMappings.Add("Under85FT", "Under85FT");
+            tableMapping.ColumnMappings.Add("Over95FT", "Over95FT");
+            tableMapping.ColumnMappings.Add("Under95FT", "Under95FT");
             tableMapping.ColumnMappings.Add("Code", "Code");
-            tableMapping.ColumnMappings.Add("EventId", "EventId");
             tableMapping.ColumnMappings.Add("BetRadarId", "BetRadarId");
             tableMapping.ColumnMappings.Add("IsAwaitingStart", "IsAwaitingStart");
-            tableMapping.ColumnMappings.Add("Sport", "Sport");
             tableMapping.ColumnMappings.Add("GameStart", "GameStart");
             tableMapping.ColumnMappings.Add("BetStart", "BetStart");
-            tableMapping.ColumnMappings.Add("Competition", "Competition");
             this._adapter.TableMappings.Add(tableMapping);
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
-            this._adapter.InsertCommand.CommandText = @"INSERT INTO [OddsTable] ([CreationDate], [Time], [HomeTeam], [AwayTeam], [HomeGoalsFT], [AwayGoalsFT], [HomeOddFT], [DrawOddFT], [AwayOddFT], [Over05FT], [Under05FT], [Over15FT], [Under15FT], [Over25FT], [Under25FT], [Over35FT], [Under35FT], [Over45FT], [Under45FT], [EventId], [BetRadarId], [IsAwaitingStart], [Sport], [GameStart], [BetStart], [Competition]) VALUES (@CreationDate, @Time, @HomeTeam, @AwayTeam, @HomeGoalsFT, @AwayGoalsFT, @HomeOddFT, @DrawOddFT, @AwayOddFT, @Over05FT, @Under05FT, @Over15FT, @Under15FT, @Over25FT, @Under25FT, @Over35FT, @Under35FT, @Over45FT, @Under45FT, @EventId, @BetRadarId, @IsAwaitingStart, @Sport, @GameStart, @BetStart, @Competition)";
+            this._adapter.InsertCommand.CommandText = @"INSERT INTO [OddsTable] ([CreationDate], [Sport], [EventId], [Competition], [HomeTeam], [AwayTeam], [Time], [HomeGoalsFT], [AwayGoalsFT], [HomeOddFT], [DrawOddFT], [AwayOddFT], [Over05FT], [Under05FT], [Over15FT], [Under15FT], [Over25FT], [Under25FT], [Over35FT], [Under35FT], [Over45FT], [Under45FT], [Over55FT], [Under55FT], [Over65FT], [Under65FT], [Over75FT], [Under75FT], [Over85FT], [Under85FT], [Over95FT], [Under95FT], [BetRadarId], [IsAwaitingStart], [GameStart], [BetStart]) VALUES (@CreationDate, @Sport, @EventId, @Competition, @HomeTeam, @AwayTeam, @Time, @HomeGoalsFT, @AwayGoalsFT, @HomeOddFT, @DrawOddFT, @AwayOddFT, @Over05FT, @Under05FT, @Over15FT, @Under15FT, @Over25FT, @Under25FT, @Over35FT, @Under35FT, @Over45FT, @Under45FT, @Over55FT, @Under55FT, @Over65FT, @Under65FT, @Over75FT, @Under75FT, @Over85FT, @Under85FT, @Over95FT, @Under95FT, @BetRadarId, @IsAwaitingStart, @GameStart, @BetStart)";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@CreationDate", global::System.Data.SqlDbType.DateTime, 0, global::System.Data.ParameterDirection.Input, 0, 0, "CreationDate", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Time", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Time", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Sport", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Sport", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@EventId", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "EventId", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Competition", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Competition", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@HomeTeam", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "HomeTeam", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@AwayTeam", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "AwayTeam", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Time", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Time", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@HomeGoalsFT", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "HomeGoalsFT", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@AwayGoalsFT", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "AwayGoalsFT", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@HomeOddFT", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 10, 4, "HomeOddFT", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -1885,13 +2328,20 @@ namespace AgilityPack.DataSet1TableAdapters {
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Under35FT", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 10, 4, "Under35FT", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Over45FT", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 10, 4, "Over45FT", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Under45FT", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 10, 4, "Under45FT", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@EventId", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "EventId", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Over55FT", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 10, 4, "Over55FT", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Under55FT", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 10, 4, "Under55FT", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Over65FT", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 10, 4, "Over65FT", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Under65FT", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 10, 4, "Under65FT", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Over75FT", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 10, 4, "Over75FT", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Under75FT", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 10, 4, "Under75FT", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Over85FT", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 10, 4, "Over85FT", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Under85FT", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 10, 4, "Under85FT", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Over95FT", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 10, 4, "Over95FT", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Under95FT", global::System.Data.SqlDbType.Decimal, 0, global::System.Data.ParameterDirection.Input, 10, 4, "Under95FT", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@BetRadarId", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "BetRadarId", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsAwaitingStart", global::System.Data.SqlDbType.Bit, 0, global::System.Data.ParameterDirection.Input, 0, 0, "IsAwaitingStart", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Sport", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Sport", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@GameStart", global::System.Data.SqlDbType.DateTime, 0, global::System.Data.ParameterDirection.Input, 0, 0, "GameStart", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@BetStart", global::System.Data.SqlDbType.DateTime, 0, global::System.Data.ParameterDirection.Input, 0, 0, "BetStart", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Competition", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Competition", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1970,9 +2420,12 @@ namespace AgilityPack.DataSet1TableAdapters {
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Insert, true)]
         public virtual int Insert(
                     global::System.Nullable<global::System.DateTime> CreationDate, 
-                    string Time, 
+                    string Sport, 
+                    string EventId, 
+                    string Competition, 
                     string HomeTeam, 
                     string AwayTeam, 
+                    string Time, 
                     global::System.Nullable<int> HomeGoalsFT, 
                     global::System.Nullable<int> AwayGoalsFT, 
                     global::System.Nullable<decimal> HomeOddFT, 
@@ -1988,168 +2441,235 @@ namespace AgilityPack.DataSet1TableAdapters {
                     global::System.Nullable<decimal> Under35FT, 
                     global::System.Nullable<decimal> Over45FT, 
                     global::System.Nullable<decimal> Under45FT, 
-                    string EventId, 
+                    global::System.Nullable<decimal> Over55FT, 
+                    global::System.Nullable<decimal> Under55FT, 
+                    global::System.Nullable<decimal> Over65FT, 
+                    global::System.Nullable<decimal> Under65FT, 
+                    global::System.Nullable<decimal> Over75FT, 
+                    global::System.Nullable<decimal> Under75FT, 
+                    global::System.Nullable<decimal> Over85FT, 
+                    global::System.Nullable<decimal> Under85FT, 
+                    global::System.Nullable<decimal> Over95FT, 
+                    global::System.Nullable<decimal> Under95FT, 
                     string BetRadarId, 
                     global::System.Nullable<bool> IsAwaitingStart, 
-                    string Sport, 
                     global::System.Nullable<global::System.DateTime> GameStart, 
-                    global::System.Nullable<global::System.DateTime> BetStart, 
-                    string Competition) {
+                    global::System.Nullable<global::System.DateTime> BetStart) {
             if ((CreationDate.HasValue == true)) {
                 this.Adapter.InsertCommand.Parameters[0].Value = ((System.DateTime)(CreationDate.Value));
             }
             else {
                 this.Adapter.InsertCommand.Parameters[0].Value = global::System.DBNull.Value;
             }
-            if ((Time == null)) {
+            if ((Sport == null)) {
                 this.Adapter.InsertCommand.Parameters[1].Value = global::System.DBNull.Value;
             }
             else {
-                this.Adapter.InsertCommand.Parameters[1].Value = ((string)(Time));
+                this.Adapter.InsertCommand.Parameters[1].Value = ((string)(Sport));
             }
-            if ((HomeTeam == null)) {
+            if ((EventId == null)) {
                 this.Adapter.InsertCommand.Parameters[2].Value = global::System.DBNull.Value;
             }
             else {
-                this.Adapter.InsertCommand.Parameters[2].Value = ((string)(HomeTeam));
+                this.Adapter.InsertCommand.Parameters[2].Value = ((string)(EventId));
             }
-            if ((AwayTeam == null)) {
+            if ((Competition == null)) {
                 this.Adapter.InsertCommand.Parameters[3].Value = global::System.DBNull.Value;
             }
             else {
-                this.Adapter.InsertCommand.Parameters[3].Value = ((string)(AwayTeam));
+                this.Adapter.InsertCommand.Parameters[3].Value = ((string)(Competition));
             }
-            if ((HomeGoalsFT.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[4].Value = ((int)(HomeGoalsFT.Value));
-            }
-            else {
+            if ((HomeTeam == null)) {
                 this.Adapter.InsertCommand.Parameters[4].Value = global::System.DBNull.Value;
             }
-            if ((AwayGoalsFT.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[5].Value = ((int)(AwayGoalsFT.Value));
-            }
             else {
+                this.Adapter.InsertCommand.Parameters[4].Value = ((string)(HomeTeam));
+            }
+            if ((AwayTeam == null)) {
                 this.Adapter.InsertCommand.Parameters[5].Value = global::System.DBNull.Value;
             }
-            if ((HomeOddFT.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[6].Value = ((decimal)(HomeOddFT.Value));
-            }
             else {
+                this.Adapter.InsertCommand.Parameters[5].Value = ((string)(AwayTeam));
+            }
+            if ((Time == null)) {
                 this.Adapter.InsertCommand.Parameters[6].Value = global::System.DBNull.Value;
             }
-            if ((DrawOddFT.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[7].Value = ((decimal)(DrawOddFT.Value));
+            else {
+                this.Adapter.InsertCommand.Parameters[6].Value = ((string)(Time));
+            }
+            if ((HomeGoalsFT.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[7].Value = ((int)(HomeGoalsFT.Value));
             }
             else {
                 this.Adapter.InsertCommand.Parameters[7].Value = global::System.DBNull.Value;
             }
-            if ((AwayOddFT.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[8].Value = ((decimal)(AwayOddFT.Value));
+            if ((AwayGoalsFT.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[8].Value = ((int)(AwayGoalsFT.Value));
             }
             else {
                 this.Adapter.InsertCommand.Parameters[8].Value = global::System.DBNull.Value;
             }
-            if ((Over05FT.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[9].Value = ((decimal)(Over05FT.Value));
+            if ((HomeOddFT.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[9].Value = ((decimal)(HomeOddFT.Value));
             }
             else {
                 this.Adapter.InsertCommand.Parameters[9].Value = global::System.DBNull.Value;
             }
-            if ((Under05FT.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[10].Value = ((decimal)(Under05FT.Value));
+            if ((DrawOddFT.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[10].Value = ((decimal)(DrawOddFT.Value));
             }
             else {
                 this.Adapter.InsertCommand.Parameters[10].Value = global::System.DBNull.Value;
             }
-            if ((Over15FT.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[11].Value = ((decimal)(Over15FT.Value));
+            if ((AwayOddFT.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[11].Value = ((decimal)(AwayOddFT.Value));
             }
             else {
                 this.Adapter.InsertCommand.Parameters[11].Value = global::System.DBNull.Value;
             }
-            if ((Under15FT.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[12].Value = ((decimal)(Under15FT.Value));
+            if ((Over05FT.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[12].Value = ((decimal)(Over05FT.Value));
             }
             else {
                 this.Adapter.InsertCommand.Parameters[12].Value = global::System.DBNull.Value;
             }
-            if ((Over25FT.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[13].Value = ((decimal)(Over25FT.Value));
+            if ((Under05FT.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[13].Value = ((decimal)(Under05FT.Value));
             }
             else {
                 this.Adapter.InsertCommand.Parameters[13].Value = global::System.DBNull.Value;
             }
-            if ((Under25FT.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[14].Value = ((decimal)(Under25FT.Value));
+            if ((Over15FT.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[14].Value = ((decimal)(Over15FT.Value));
             }
             else {
                 this.Adapter.InsertCommand.Parameters[14].Value = global::System.DBNull.Value;
             }
-            if ((Over35FT.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[15].Value = ((decimal)(Over35FT.Value));
+            if ((Under15FT.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[15].Value = ((decimal)(Under15FT.Value));
             }
             else {
                 this.Adapter.InsertCommand.Parameters[15].Value = global::System.DBNull.Value;
             }
-            if ((Under35FT.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[16].Value = ((decimal)(Under35FT.Value));
+            if ((Over25FT.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[16].Value = ((decimal)(Over25FT.Value));
             }
             else {
                 this.Adapter.InsertCommand.Parameters[16].Value = global::System.DBNull.Value;
             }
-            if ((Over45FT.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[17].Value = ((decimal)(Over45FT.Value));
+            if ((Under25FT.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[17].Value = ((decimal)(Under25FT.Value));
             }
             else {
                 this.Adapter.InsertCommand.Parameters[17].Value = global::System.DBNull.Value;
             }
-            if ((Under45FT.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[18].Value = ((decimal)(Under45FT.Value));
+            if ((Over35FT.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[18].Value = ((decimal)(Over35FT.Value));
             }
             else {
                 this.Adapter.InsertCommand.Parameters[18].Value = global::System.DBNull.Value;
             }
-            if ((EventId == null)) {
+            if ((Under35FT.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[19].Value = ((decimal)(Under35FT.Value));
+            }
+            else {
                 this.Adapter.InsertCommand.Parameters[19].Value = global::System.DBNull.Value;
             }
-            else {
-                this.Adapter.InsertCommand.Parameters[19].Value = ((string)(EventId));
+            if ((Over45FT.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[20].Value = ((decimal)(Over45FT.Value));
             }
-            if ((BetRadarId == null)) {
+            else {
                 this.Adapter.InsertCommand.Parameters[20].Value = global::System.DBNull.Value;
             }
-            else {
-                this.Adapter.InsertCommand.Parameters[20].Value = ((string)(BetRadarId));
-            }
-            if ((IsAwaitingStart.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[21].Value = ((bool)(IsAwaitingStart.Value));
+            if ((Under45FT.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[21].Value = ((decimal)(Under45FT.Value));
             }
             else {
                 this.Adapter.InsertCommand.Parameters[21].Value = global::System.DBNull.Value;
             }
-            if ((Sport == null)) {
-                this.Adapter.InsertCommand.Parameters[22].Value = global::System.DBNull.Value;
+            if ((Over55FT.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[22].Value = ((decimal)(Over55FT.Value));
             }
             else {
-                this.Adapter.InsertCommand.Parameters[22].Value = ((string)(Sport));
+                this.Adapter.InsertCommand.Parameters[22].Value = global::System.DBNull.Value;
             }
-            if ((GameStart.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[23].Value = ((System.DateTime)(GameStart.Value));
+            if ((Under55FT.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[23].Value = ((decimal)(Under55FT.Value));
             }
             else {
                 this.Adapter.InsertCommand.Parameters[23].Value = global::System.DBNull.Value;
             }
-            if ((BetStart.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[24].Value = ((System.DateTime)(BetStart.Value));
+            if ((Over65FT.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[24].Value = ((decimal)(Over65FT.Value));
             }
             else {
                 this.Adapter.InsertCommand.Parameters[24].Value = global::System.DBNull.Value;
             }
-            if ((Competition == null)) {
-                this.Adapter.InsertCommand.Parameters[25].Value = global::System.DBNull.Value;
+            if ((Under65FT.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[25].Value = ((decimal)(Under65FT.Value));
             }
             else {
-                this.Adapter.InsertCommand.Parameters[25].Value = ((string)(Competition));
+                this.Adapter.InsertCommand.Parameters[25].Value = global::System.DBNull.Value;
+            }
+            if ((Over75FT.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[26].Value = ((decimal)(Over75FT.Value));
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[26].Value = global::System.DBNull.Value;
+            }
+            if ((Under75FT.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[27].Value = ((decimal)(Under75FT.Value));
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[27].Value = global::System.DBNull.Value;
+            }
+            if ((Over85FT.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[28].Value = ((decimal)(Over85FT.Value));
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[28].Value = global::System.DBNull.Value;
+            }
+            if ((Under85FT.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[29].Value = ((decimal)(Under85FT.Value));
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[29].Value = global::System.DBNull.Value;
+            }
+            if ((Over95FT.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[30].Value = ((decimal)(Over95FT.Value));
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[30].Value = global::System.DBNull.Value;
+            }
+            if ((Under95FT.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[31].Value = ((decimal)(Under95FT.Value));
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[31].Value = global::System.DBNull.Value;
+            }
+            if ((BetRadarId == null)) {
+                this.Adapter.InsertCommand.Parameters[32].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[32].Value = ((string)(BetRadarId));
+            }
+            if ((IsAwaitingStart.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[33].Value = ((bool)(IsAwaitingStart.Value));
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[33].Value = global::System.DBNull.Value;
+            }
+            if ((GameStart.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[34].Value = ((System.DateTime)(GameStart.Value));
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[34].Value = global::System.DBNull.Value;
+            }
+            if ((BetStart.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[35].Value = ((System.DateTime)(BetStart.Value));
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[35].Value = global::System.DBNull.Value;
             }
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.InsertCommand.Connection.State;
             if (((this.Adapter.InsertCommand.Connection.State & global::System.Data.ConnectionState.Open) 

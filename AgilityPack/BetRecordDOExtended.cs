@@ -62,11 +62,21 @@ namespace AgilityPack
       public double Under35FT = -1;
       public double Over45FT = -1;
       public double Under45FT = -1;
+      public double Over55FT = -1;
+      public double Under55FT = -1;
+      public double Over65FT = -1;
+      public double Under65FT = -1;
+      public double Over75FT = -1;
+      public double Under75FT = -1;
+      public double Over85FT = -1;
+      public double Under85FT = -1;
+      public double Over95FT = -1;
+      public double Under95FT = -1;
 
 
       public override string ToString()
       {
-         return $"{Time} {Competition} {HomeTeam} - {AwayTeam} {HomeGoalsFT}:{AwayGoalsFT}  MatchResult: (1){HomeOddFT} (X){DrawOddFT} (2){AwayOddFT}  FT Over/Under(0.5):{Over05FT}/{Under05FT}  FT Over/Under(1.5):{Over15FT}/{Under15FT}  FT Over/Under(2.5):{Over25FT}/{Under25FT}  FT Over/Under(3.5):{Over35FT}/{Under35FT}  FT Over/Under(4.5):{Over45FT}/{Under45FT}";
+         return $"{Time} {Competition} {HomeTeam} - {AwayTeam} {HomeGoalsFT}:{AwayGoalsFT}  MatchResult: (1){HomeOddFT} (X){DrawOddFT} (2){AwayOddFT}  FT Over/Under(0.5):{Over05FT}/{Under05FT}  FT Over/Under(1.5):{Over15FT}/{Under15FT}  FT Over/Under(2.5):{Over25FT}/{Under25FT}  FT Over/Under(3.5):{Over35FT}/{Under35FT}  FT Over/Under(4.5):{Over45FT}/{Under45FT} FT Over/Under(5.5):{Over55FT}/{Under55FT} FT Over/Under(6.5):{Over65FT}/{Under65FT} FT Over/Under(7.5):{Over75FT}/{Under75FT} FT Over/Under(8.5):{Over85FT}/{Under85FT} FT Over/Under(9.5):{Over95FT}/{Under95FT}";
       }
 
       public List<ParseInfo> ParseInfo=new List<ParseInfo>();
